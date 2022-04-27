@@ -1,3 +1,1 @@
-Rails.application.routes.draw do
-  resources :plants, only: [:index, :show, :create]
-end
+Rails.application.routes.draw { resources :plants }
